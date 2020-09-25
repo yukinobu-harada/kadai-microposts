@@ -1,3 +1,4 @@
 <% flash.each do |message_type, message| %>
+  <%# message_typeは色、messageはエラーメッセージ %>
   <div class="alert alert-<%= message_type %>"><%= message %></div>
 <% end %>
